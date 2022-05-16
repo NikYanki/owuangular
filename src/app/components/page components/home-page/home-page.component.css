@@ -1,0 +1,33 @@
+a {
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: blue;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+a:visited {
+  color: #fefefe;
+}
+
+a:hover {
+  border: 1px solid;
+  background: deepskyblue;
+  border-radius: 3px;
+}
+
+a:active {
+  background: #2bfff1;
+  color: #f9e9da;
+}
+a:link {
+  color: #f7f8f6;
+}
+.home_menu{
+  display: flex;
+  justify-content: space-around;
+  background: cornflowerblue;
+}
+
+

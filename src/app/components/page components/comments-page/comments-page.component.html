@@ -1,0 +1,4 @@
+<div class="comments_container" *ngFor="let comment of comments">
+  <p>{{comment.id}}{{comment.name}}</p>
+  <a [routerLink]="['comment',comment.id]">get more information</a>
+</div>

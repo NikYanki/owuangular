@@ -1,0 +1,4 @@
+<div class="posts_container" *ngFor="let post of posts">
+  <p>{{post.id}}  {{post.title}}</p>
+  <a [routerLink]="['post', post.id]">get more information</a>
+</div>

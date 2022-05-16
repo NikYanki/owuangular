@@ -1,0 +1,4 @@
+<div class="albums_container" *ngFor="let album of albums">
+  <p>{{album.id}}{{album.title}}</p>
+  <a [routerLink]="['album',album.id]" [state]="{data:album}">get more information</a>
+</div>

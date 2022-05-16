@@ -1,0 +1,4 @@
+<div  class="todos_container" *ngFor="let todo of todos">
+  <p>{{todo.id}}{{todo.title}}</p>
+  <a [routerLink]="['todo',todo.id]" [state]="{data:todo}" >get more information</a>
+</div>
