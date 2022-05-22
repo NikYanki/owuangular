@@ -10,11 +10,9 @@ import {IAlbums} from "../../models/albums-interface";
 export class AlbumComponent implements OnInit {
 @Input()
   album:IAlbums
-  constructor(private Router: Router,
-              private ActivatedRoute:ActivatedRoute) { }
+  constructor() { }
 
   ngOnInit(): void {
-    this.Router.navigate([this.album.id],{relativeTo: this.ActivatedRoute})
   }
 
 }
