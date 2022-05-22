@@ -1,0 +1,6 @@
+.head{
+  margin: 2% auto;
+  background: deepskyblue;
+  display: flex;
+  justify-content: center;
+}

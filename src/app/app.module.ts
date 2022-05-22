@@ -1,14 +1,15 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
 
-import { AppComponent } from './app.component';
+import {AppComponent} from './app.component';
 import {AppRoutingModule} from "./app-routing.module";
-import { HomePageComponent } from './ main-components/home-page/home-page.component';
+import {HomePageComponent} from './ main-components/home-page/home-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomePageComponent
+    HomePageComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -17,4 +18,5 @@ import { HomePageComponent } from './ main-components/home-page/home-page.compon
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
